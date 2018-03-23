@@ -1,10 +1,10 @@
 package cn.exrick.manager.mapper;
 
-import java.util.List;
-
 import cn.exrick.manager.pojo.TbAddress;
 import cn.exrick.manager.pojo.TbAddressExample;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface TbAddressMapper {
     long countByExample(TbAddressExample example);
